@@ -1,4 +1,4 @@
 def print_list_integer(my_list=[]):
     for elem in my_list:
         if type(elem) == int:
-             print('{}\n'.format(elem))
+             print("{:d}".format(elem))
